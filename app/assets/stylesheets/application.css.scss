@@ -1,0 +1,223 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *
+ *= require j_growl_rails/jquery.jgrowl
+ *= require owl.carousel
+ *= require owl.theme
+ *= require_self
+ *= require_tree .
+ */
+
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap-sprockets";
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap";
+
+
+body
+{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div
+{
+  .text
+  {
+    overflow: hidden;
+  }
+}
+
+.top-buffer
+{
+  margin-top:20px; 
+}
+
+.progress-bar
+{
+  max-height: 8px;
+}
+
+.project_box
+{
+  .panel-body
+  {
+    min-height: 206px;
+    max-height: 206px;
+  }
+  .project_heading
+  {
+    max-height: 69px;
+  }
+  .images
+  {
+    max-height: 80px;
+    min-height: 80px;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    img{
+      padding: 0;
+    }
+  }
+  .description
+  {
+    min-height: 89px;
+    max-height: 89px;
+  }
+
+  min-height: 300px;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+
+#leaf_panel
+{
+  
+}
+
+#map_bar
+{
+  margin-top: -10px;
+}
+
+#map_panel
+{
+  min-height: 500px;
+}
+
+#map_holder
+{
+  min-height: 800px;
+  width: 100%;
+  background-color: white;
+  z-index: 9000;
+}
+
+
+.voting{
+  margin-right: 1.0em;
+}
+
+.vote_button_holder{
+  .voted
+  {
+    color: #BB2C2C !important;
+  }
+}
+
+.leaf_container
+{
+  display: table;
+  width: 100%;
+
+  .vote_control
+  {
+    color: #CCC;
+  }
+  .vote_control:hover
+  {
+    color: #000;
+  }
+
+  .contents
+  {
+    margin-left: 28px;
+    padding: 6px;
+
+    .name
+    {
+      
+    }
+
+    .description
+    {
+
+    }
+  }  
+}
+
+.vote_button_holder
+{
+  line-height: 0.65;
+  width: 100%;
+  min-width: 2em;
+
+  span.fa 
+  {
+    font-size: 2.0em;
+  }
+  .status
+  {
+    font-size: 2.0em;
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+
+.content {
+ background-color: #eee;
+ padding: 20px;
+ margin: 0 -20px;
+ -webkit-border-radius: 0 0 6px 6px;
+ -moz-border-radius: 0 0 6px 6px;
+ border-radius: 0 0 6px 6px;
+ -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+ -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+ box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+.main_logo
+{
+  height: 35px;
+  margin-top: -8px;
+}
+
+.big-icon
+{
+  size: 2.0em !important;
+}
+
+.comment
+{
+  .user
+  {
+    margin-right: 8px;
+  }
+  padding: 6px;
+}
+
+img.person_icon
+{
+  padding: 3px;
+  width: 25px;
+  height: 25px;
+}
+
+.btn.panel-button {
+    font-size: 0.7em;
+    padding: 0.1em 0.3em;
+}
+
+.section-button.active
+{
+  a
+  {
+    background-color: #525252 !important;
+  }
+}
+
+.section-button
+{
+  a
+  {
+    background-color: #525252 !important;
+  }
+}

@@ -1,0 +1,25 @@
+%h1 Admin: Users
+
+%table.table
+  %tr
+    %th Email
+    %th Joined
+    %th Sign ins
+    %th Last seen
+    %th
+    %th
+    %th
+
+  - @users.each do |user|
+    %tr
+      %td= user.email
+      %td= time_ago_in_words user.created_at
+      %td= user.sign_in_count
+      %td= time_ago_in_words user.current_sign_in_at
+      %td= link_to 'Show', user
+      %td= link_to 'Edit', edit_user_path(user)
+      %td= link_to 'Destroy', user, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+/ = link_to 'New User', new_user_path

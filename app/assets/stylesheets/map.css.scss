@@ -1,0 +1,54 @@
+// Place all the styles related to the Map controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+g.node
+{
+  circle
+  {
+    fill: #fff;
+    stroke-width: 1.5px;
+  }
+
+  circle.fruit
+  {
+    stroke: green; 
+  }  
+  circle.request
+  {
+    stroke: grey; 
+  }  
+  circle.problem
+  {
+    stroke: red; 
+  }
+  circle.idea
+  {
+    stroke: #995; 
+  }
+  circle.leaf
+  {
+    stroke: steelblue; 
+  }
+
+  circle.new
+  {
+    stroke: goldenrod; 
+    stroke-dasharray: 1;
+    stroke-width: 5px;
+  }
+}
+g.node.new > text
+{
+  font-weight: 600;
+}
+.node {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
