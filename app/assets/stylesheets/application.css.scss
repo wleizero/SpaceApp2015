@@ -21,6 +21,13 @@
 @import "bootstrap-sass-official/assets/stylesheets/bootstrap";
 
 
+
+.highlight
+{
+  stroke-width: 2px !important;
+  stroke: '#FF0000';
+}
+
 body
 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

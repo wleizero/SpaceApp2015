@@ -17,6 +17,8 @@ gem 'jbuilder'
 
 gem "bower-rails"
 
+gem 'inline_svg'
+
 # Bootstrap
 gem 'bootstrap-sass'
 gem "therubyracer"

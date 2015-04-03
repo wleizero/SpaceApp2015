@@ -1,7 +1,7 @@
-= image_tag 'shuttle.svg'
 
-.flip-clock
-  clock
-.container-fluid{ "ng-app" => "collab"}
+.container-fluid{ "ng-app" => "space"}
   .view-container
+    .flip-clock
+    = inline_svg 'Rocket_Launcher.svg', style: "width: 100%", id: "launch_image"
+
     .view-frame.animate-view( ng-view )
