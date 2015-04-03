@@ -1,3 +1,10 @@
+$ -> 
+  clock = new FlipClock($('.flip-clock'), {
+      countdown: true
+    })
+  clock.setTime(9000)
+  clock.start()
+
 collab = angular.module('collab',
     [
       'templates',
